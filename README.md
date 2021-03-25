@@ -35,4 +35,3 @@ npm run dev (start both)
 
 - Website: https://siteen.co/
 - Github: [@Keysamm](https://github.com/Keysamm)
-# zade
