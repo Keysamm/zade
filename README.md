@@ -17,16 +17,16 @@
 
 ```sh
 npm install
-cd client
-npm install
+# cd client
+# npm install
 ```
 
 ## Usage
 
 ```sh
 npm run server (start server)
-npm run client (start client)
-npm run dev (start both)
+# npm run client (start client)
+# npm run dev (start both)
 ```
 
 ## Author
