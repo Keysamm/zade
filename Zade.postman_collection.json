@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "bba5ef51-3921-46ce-870c-6a1f396f240c",
+		"name": "Zade",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"About Animals\",\r\n    \"description\": \"Lorem Ipsum - это текст - часто используемый в печати и вэб-дизайне\",\r\n    \"author\": \"Keysam\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/post/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"post",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/post/get-all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"post",
+						"get-all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get post by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/post/605bc763c5296d2c3c0f7d14",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"post",
+						"605bc763c5296d2c3c0f7d14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update post by ID",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"OLD OLD\",\r\n    \"description\": \"OLD OLD\",\r\n    \"author\": \"OLD OLD\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/post/update/605bc763c5296d2c3c0f7d14",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"post",
+						"update",
+						"605bc763c5296d2c3c0f7d14"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete post by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/api/post/delete/605b9ea58e9c3a1b883cc1a7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"post",
+						"delete",
+						"605b9ea58e9c3a1b883cc1a7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
