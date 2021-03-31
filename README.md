@@ -11,22 +11,16 @@
 
 > The test task for the Zade IT company
 
-<!-- ### ✨ [Demo](1234) -->
-
 ## Install
 
 ```sh
 npm install
-# cd client
-# npm install
 ```
 
 ## Usage
 
 ```sh
-npm run server (start server)
-# npm run client (start client)
-# npm run dev (start both)
+npm run server
 ```
 
 ## Author
